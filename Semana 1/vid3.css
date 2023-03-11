@@ -1,0 +1,10 @@
+@media only screen and (width:411px) and (height:731px) {
+    #bloque {
+        background-color: rgb(144, 238, 144);
+    }
+}
+@media only screen and (max-width: 800px) {
+    #bloque {
+        background-color: rgb(65, 139, 114);
+    }
+}
