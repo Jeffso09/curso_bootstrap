@@ -20,34 +20,37 @@
         <div class="text-lg-center" class="modal-header">
             <p class="p-3 mb-2 bg-success text-white"> Contacto </p>
         </div>
-        <form class="col-6 col-md-4 offset-md-4">
-            <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre">
-            </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="descripcion">Indique una descripción personal y destrezas:</label>
-                <textarea class="form-control" id="descripcion"></textarea>
-            </div>
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter"> enviar
-            </button>
+        <div class="col-6 col-md-4 offset-md-4">
             <div class="alert alert-danger" role="alert">
                 todos los espacios requieren llenarse
             </div>
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalCenterTitle">se ha enviado correctamente</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-        </form>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Indique una descripción:</label>
+                    <textarea class="form-control" id="descripcion"></textarea>
+                </div>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+                    enviar
+                </button>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">se ha enviado correctamente</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+            </form>
+        </div>
 
 
     </body>
